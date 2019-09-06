@@ -168,7 +168,7 @@ public class Register {
 	@Then("user add items into the cart")
 	public void user_add_items_into_the_cart() {
 	    
-		driver.findElement(By.linkText("Add To cart")).click();
+		//driver.findElement(By.linkText("Add To cart")).click();
 		Assert.assertEquals(driver.getTitle(), "Search");
 		driver.close();
 	}
