@@ -1,0 +1,399 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-05T06:54:39.796Z",
+        "line": 14,
+        "name": "Login",
+        "description": "",
+        "id": "to-login-the-app;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25679415200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user opens the application",
+            "match": {
+              "location": "Login.user_opens_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173176600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the \"AlexUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AlexUser\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.user_enters_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136094901,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the pwd \"Alex@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex@123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.user_enters_the_pwd(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21549829901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks the Login",
+            "match": {
+              "location": "Login.user_clicks_the_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To login the App",
+    "description": "",
+    "id": "to-login-the-app",
+    "keyword": "Feature",
+    "uri": "classpath:Cucu_Case/Login1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-05T06:55:27.361Z",
+        "line": 6,
+        "name": "Register in TestMeApp Application",
+        "description": "",
+        "id": "register;register-in-testmeapp-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39938158000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open the application",
+            "match": {
+              "location": "Register.user_open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10746982700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click sign_up button to register",
+            "match": {
+              "location": "Register.user_click_sign_up_button_to_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131933501,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the username as \"AlexUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AlexUser\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Register.user_enters_the_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121278701,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters first name as \"sarumathi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sarumathi\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Register.user_enters_first_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108637900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters last name as \"naren\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naren\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.user_enters_last_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117475199,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters password as \"Alex@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Register.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108849500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters confirm password as \"Alex@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex@123\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Register.user_enters_confirm_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108669200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters gender as Male",
+            "match": {
+              "location": "Register.user_enters_gender_as_Male()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150901799,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters e-mail as \"saru@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saru@gmail.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Register.user_enters_e_mail_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123292700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters mobileNumber as \"9876543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876543\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Register.user_enters_mobileNumber_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140546000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters dob as \"05/12/1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"05/12/1998\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.user_enters_dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114712300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters address as \"machuvadi,chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"machuvadi,chennai\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.user_enters_address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111727400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters security question as \"What is your Birth Place?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What is your Birth Place?\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Register.user_enters_security_question_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91614700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters answer as \"chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chennai\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Register.user_enters_answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 840792799,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click register button",
+            "match": {
+              "location": "Register.user_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Sign Up]\u003e but was:\u003c[Login]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat Cucu_Case.Register.login_Page_will_display(Register.java:118)\r\n\tat ✽.Login Page will display(classpath:Cucu_Case/Register.feature:22)\r\n",
+              "duration": 17409800,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "Login Page will display",
+            "match": {
+              "location": "Register.login_Page_will_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "classpath:Cucu_Case/Register.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
