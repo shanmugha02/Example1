@@ -6,7 +6,7 @@ Feature: Register
   Scenario Outline: Register in TestMeApp Application
   	Given User open the application
   	When User click sign_up button to register
-  	And User enters the username as "s3"
+  	And User enters the username as "s5"
   	And User enters first name as "sarumathi"
   	And User enters last name as "naren"
   	And User enters password as "Alex@123"
