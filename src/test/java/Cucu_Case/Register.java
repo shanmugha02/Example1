@@ -152,7 +152,7 @@ public class Register {
 	@When("user type first four letter of search product as {string}")
 	public void user_type_first_four_letter_of_search_product_as(String string) {
 
-		WebElement obj=driver.findElement(By.xpath("//*[@id=\'myInput\']")).sendKeys(string);;
+		driver.findElement(By.xpath("//*[@id=\'myInput\']")).sendKeys(string);
 		//obj
 		//obj.sendKeys(Keys.ARROW_DOWN);
 		//obj.sendKeys(Keys.ENTER);
